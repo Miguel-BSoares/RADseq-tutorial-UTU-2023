@@ -1,3 +1,8 @@
+
+PLEASE READ DOCUMENTATION ON WORKING IN THE UNIX COMMAND LINE BEFOREHAND
+THE WALKTHROUGH IS DESIGNED FOR A MASTER-LEVEL DEGREE IN BIOINFORMATICS
+
+
 All scripts written below required data files to be placed in the correct place. 
 This is a very simple tutorial to perform the first steps of RADseq data, both with and without a reference genome.
 Here we utilize STACKS, arguably the most commonly used software to analyze RADseq data from scratch - but there are of course other programs.
@@ -134,6 +139,8 @@ done
 ##With this snippet you will be able to parse relevant information for each sample
 ##You can modify anything with ' ' to search for other string of characters
 ##Results will be passed on to a file name u_logs
+##Note that log files might change and this the following command might not work. Change the contents of '/ /' accordingly. 
+
 sed -nr '/Parsing|After remainders merged|Number of utilized reads/p' u_logfile >u_logs
 
 ###We can also utilize STACKS wrapper program denovo.pl to go through all the denovo assembly softwares
