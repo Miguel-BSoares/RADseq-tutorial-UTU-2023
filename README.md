@@ -5,4 +5,3 @@ Annotated scripts for the first steps of RADseq data treatment with STACKS. Plea
 
 I suggest also for you to utilize a proper text editor such as notepad++ to edit the script and changing the language to Shell.
 
-![Alt text](p3-D_DNA-56a09ae45f9b58eba4b20266.jpg)
